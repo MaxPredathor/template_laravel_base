@@ -56,4 +56,16 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/MaxPredathor/template_laravel_base.git
 git push -u origin main
+
+#Creo nuova repo su github da template
+
+#Clono la repo da vs
+
+composer install
+
+#Copiare  il file .env.example e rinominarlo in .env
+
+php artisan key:generate
+
+npm install
 ```
